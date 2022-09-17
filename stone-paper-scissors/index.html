@@ -5,7 +5,7 @@
         <title>Jassozng.dev</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="../styles/main.css">
         <link rel="shortcut icon" href="./resources/icon.png">
         <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     </head>
@@ -27,13 +27,24 @@
         </nav>
         <main>
             <section class="main-content">
-                <div class="main-centered">
-                    <p class="wave">Testing page for javascript exercises practice - Jasso Zuñiga.</p><br>
-                    <a class="social-icons" href="https://github.com/Jassozng/" target="blank"><i class="icon ion-logo-github"></i></a>
-                    <a class="social-icons" href="https://www.linkedin.com/in/jasso-zu%C3%B1iga-711a62210/" target="blank"><i class="icon ion-logo-linkedin"></i></a>
-                    <a class="social-icons" id="emailBtn" href="javascript: void(0);"><i class="icon ion-md-mail"></i></a>
-                    <p class="clipboard-alert" id="clipAlert"></p>
-                </div>
+                <form id="game-form">
+                    <fieldset>
+                      <legend>Choose your selection</legend>
+                      <p>
+                        <input type="radio" name="playerSelection" id="playerSelection_1" value="Stone" />
+                        <label for="playerSelection_1">Stone</label>
+                      </p>
+                      <p>
+                        <input type="radio" name="playerSelection" id="playerSelection_2" value="scissor" />
+                        <label for="playerSelection_2">Scissor</label>
+                      </p>
+                      <p>
+                        <input type="radio" name="playerSelection" id="playerSelection_3" value="paper" />
+                        <label for="playerSelection_3">Paper</label>
+                      </p>
+                      <input type="submit" value="">
+                    </fieldset>
+                  </form>
             </section>
         </main>
         <script src="/js/clipboardEmail.js" async defer></script>
