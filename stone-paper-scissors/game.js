@@ -23,6 +23,8 @@ const stoneComparations = (computerSelection) => {
       return "Win";
     case "Paper":
       return "Lose";
+    default: 
+      return "Tie";
   }
 };
 
@@ -32,6 +34,8 @@ const scissorComparations = (computerSelection) => {
       return "Win";
     case "Stone":
       return "Lose";
+    default: 
+      return "Tie";
   }
 };
 const paperComparations = (computerSelection) => {
@@ -40,6 +44,8 @@ const paperComparations = (computerSelection) => {
       return "Win";
     case "Scissor":
       return "Lose";
+    default: 
+      return "Tie";
   }
 };
 
