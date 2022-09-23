@@ -7,9 +7,9 @@ window.onload = () => {
           `
           <fieldset styles="flex-direction: column">
             <legend>Game Results</legend>
-            <p class="result">Your chooise</p><br>
+            <p class="result">Your choice</p><br>
             <img class="playerSelection" src="./resource/${gameResults["playerSelection"]}.png">
-            <p class="result">Computer chooise</p>
+            <p class="result">Computer choice</p>
             <img class="playerSelection" src="./resource/${gameResults["computerSelection"]}.png">
             <p class="result">
               Result: ${gameResults["result"]}
