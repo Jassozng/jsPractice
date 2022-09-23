@@ -247,17 +247,22 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-  }
+    background-color: #F2EFC7;
+}
+
+thead{
+    background-color: #9F7E69 !important;
+}
   
-  td, th {
-    border: 1px solid #dddddd;
+td, th {
+    border: 2px solid #dddddd;
     text-align: left;
     padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
+}
+
+tr:nth-child(even) {
+    background-color: #D2BBA0 !important; 
+}
 
 legend {
     color: white;
@@ -285,4 +290,25 @@ fieldset{
 .game-form{
     display: flex;
     flex-direction: row;
+}
+
+.searchUser {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.searchButton{
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }

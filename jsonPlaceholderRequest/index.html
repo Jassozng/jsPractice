@@ -28,13 +28,19 @@
         <main>
             <section class="main-content">
                 <div class="main-centered">
+                    <div class="searchContainer">
+                        <input type="text" id="searchUser" name="searchUser" class="searchUser" placeholder="Username"/>
+                        <input type="button" class="searchButton" id="searchButton" value="Search"/>
+                    </div><br>
                     <table id="users-table">
-                        <tr>
-                            <th>ID</th>
-                            <th>Name</th>
-                            <th>Username</th>
-                            <th>Email</th>
-                        </tr>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Username</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
                     </table>
                 </div>
             </section>
