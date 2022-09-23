@@ -4,14 +4,14 @@ window.onload = async () => {
     const searchInput = document.getElementById("searchButton");
     searchInput.addEventListener("click", () => {search()});
     fillTable(petitionData);
-}
+};
 
 const getData = async () => {
     await fetch('https://jsonplaceholder.typicode.com/users?10')
     .then((response) => response.json())
     .then((data) => petitionData = data);
     return petitionData;
-} 
+};
 
 
 function search(){
