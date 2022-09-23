@@ -17,6 +17,11 @@ li {
     list-style: none;
 }
 
+.result {
+    font-size: 2rem;
+    font-family: monospace;
+}
+
 /* NAVBAR STYLING STARTS */
 .navbar {
     display: flex;
@@ -253,3 +258,31 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+
+legend {
+    color: white;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+fieldset{
+    flex-basis: -moz-available;
+    height: -moz-available;
+}
+
+.choose {
+    display: flex;
+    flex-direction: row;
+}
+
+.playerSelection{
+    width: 50%;
+    height: 50%;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.game-form{
+    display: flex;
+    flex-direction: row;
+}

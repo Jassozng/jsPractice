@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Jassozng.dev</title>
+        <title>Stone-Paper-Scissors Game</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../styles/main.css">
@@ -12,7 +12,7 @@
     <body>
         <nav class="navbar">
             <!-- LOGO -->
-            <div class="logo">Jasso Zúñiga</div>
+            <div class="logo">Stone-Paper-Scissors Game</div>
             <!-- NAVIGATION MENU -->
             <ul class="nav-links">
                 <!-- NAVIGATION MENUS -->
@@ -27,26 +27,22 @@
         </nav>
         <main>
             <section class="main-content">
-                <form id="game-form">
-                    <fieldset>
+                <form id="game-form" class="game-form">
+                    <fieldset class="choose">
                       <legend>Choose your selection</legend>
                       <p>
-                        <input type="radio" name="playerSelection" id="playerSelection_1" value="Stone" />
-                        <label for="playerSelection_1">Stone</label>
+                        <input type="image" src="./resource/Stone.png" class="playerSelection" id="playerSelection_1" value="Stone" />
                       </p>
                       <p>
-                        <input type="radio" name="playerSelection" id="playerSelection_2" value="scissor" />
-                        <label for="playerSelection_2">Scissor</label>
+                        <input type="image" src="./resource/Scissor.png" class="playerSelection" id="playerSelection_2" value="Scissor" />
                       </p>
                       <p>
-                        <input type="radio" name="playerSelection" id="playerSelection_3" value="paper" />
-                        <label for="playerSelection_3">Paper</label>
+                        <input type="image" src="./resource/Paper.png" class="playerSelection" id="playerSelection_3" value="Paper" />
                       </p>
-                      <input type="submit" value="">
                     </fieldset>
                   </form>
             </section>
         </main>
-        <script src="/js/clipboardEmail.js" async defer></script>
+        <script src="./game.js" ></script>
     </body>
 </html>
